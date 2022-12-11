@@ -1,0 +1,6 @@
+#name = input('Digite seu nome completo: ')
+name = str(input('Digite seu nome completo: ')).strip()
+print(name.upper())
+print(name.lower())
+print(len(name.replace(' ', '')))
+print(name.find(' '))
